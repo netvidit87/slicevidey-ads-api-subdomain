@@ -101,7 +101,7 @@ export default function VideoPlayer() {
   }, [id])
 
   useEffect(() => {
-    document.title = id ? `SliceVidey - ${id}` : 'SliceVidey'
+    document.title = 'SliceVidey - Free and Simple Video Hosting'
   }, [id])
 
   useEffect(() => {
